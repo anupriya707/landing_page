@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .top-bar {
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    color: rgb(40, 33, 33);
+    padding: 10px 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .consult-btn {
+    background: #fff;
+    color: #ee0979;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .navbar {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .buy-now {
+    background: orange;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+  
+  .hero {
+    background: url('https://wallpapercave.com/wp/wp2931967.jpg') no-repeat center center/cover;
+    height: 80vh;
+    color: rgba(247, 237, 245, 0.982);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-buttons {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background: #ee0979;
+    color: white;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .secondary {
+    background: #fff;
+    color: #ee0979;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background: linear-gradient(to right, #f7b733, #fc4a1a, #ee0979);
+    color: white;
+  }
+  
+  .feature-box {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .about {
+    background: #eeeeec;
+    padding: 60px 0;
+  }
+  
+  .about-content {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .about .text {
+    flex: 1;
+  }
+  
+  .about .image img {
+    max-width: 100%;
+    border: 4px solid #ee0979;
+    border-radius: 10px;
+  }
+  
+  .services {
+    padding: 60px 0;
+    background: url(https://i.pinimg.com/originals/10/24/54/1024546b619e0024d4c1395e23984f60.jpg);
+    text-align: center;
+    padding: 50px;
+    color: white; 
+  }
+  
+  .service-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  
+  .service {
+    width: 30%;
+  }
+  
+  .service img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .service h4 {
+    margin-top: 15px;
+  }
+  
